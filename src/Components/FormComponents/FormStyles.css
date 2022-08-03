@@ -1,0 +1,21 @@
+.text {
+    color: #2C3639;
+    margin-bottom: 0.5rem;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+.formBox .box{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(44,54,57, 0.3);
+    border-color: rgba(246,238,231, 0.1);
+    color: #2C3639;
+}
