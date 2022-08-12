@@ -1,6 +1,5 @@
 import "./HeroImageStyles.css";
 import tesselation from "C:/Work/NotUni/portfolio-site/src/Assets/tesselation.jpg";
-import { Link } from "react-router-dom";
 import React from 'react';
 
 const HomeHeroImage = () => {
@@ -15,6 +14,9 @@ const HomeHeroImage = () => {
             <div className="content">
                 <h1>Ross Williams</h1>
                 <p>Software Development Portfolio</p>
+                <p>Scroll For Projects</p>
+                <p>v</p>
+
                 <div className="btn-container">
                     {/*}
                     <Link to="/Projects" className="btn">

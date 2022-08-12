@@ -45,9 +45,6 @@ const NavBar = () => {
                 }
 
             </div>
-            <Link to="/">
-                <h1>Portfolio</h1>
-            </Link>
         </div>
     )
 }

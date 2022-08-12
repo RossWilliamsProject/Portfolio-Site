@@ -1,14 +1,15 @@
 import "./ProjectStyles.css";
-import NavBar from '../Components/NavBarComponents/NavBar';
 import Footer from '../Components/FooterComponents/Footer'
-
+import AltHeroImage from '../Components/HeroImageComponents/AltHeroImage'
+import NavBar from '../Components/NavBarComponents/NavBar'
 import React from 'react'
 
 const Project1Page = () => {
   return (
     <div>
       <NavBar />
-      Project 1
+      <AltHeroImage heading="Titanic" text="Machine Learning Competition" />
+      Titanic Stuff
       <Footer />
     </div>
   )

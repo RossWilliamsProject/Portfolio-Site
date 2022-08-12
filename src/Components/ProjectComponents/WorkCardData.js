@@ -1,11 +1,13 @@
 import tesselation from "C:/Work/NotUni/portfolio-site/src/Assets/tesselation.jpg";
+import titanic from "C:/Work/NotUni/portfolio-site/src/Assets/titanic.jpg";
 import tesselation2 from "C:/Work/NotUni/portfolio-site/src/Assets/tesselation2.png";
 
 const ProjectCardData = [
     {
-        imgsrc: tesselation,
-        title: "Project One",
-        text: "this is a short description of project One",
+        imgsrc: titanic,
+        title: "Titanic",
+        description: "A project based around the Titanic ML database on Kaggle, my first python data science project.",
+        skills: "Skills Used: Python, Pandas, Scikit-Learn",
         view: "/Project1"
     },
     {

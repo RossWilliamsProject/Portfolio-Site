@@ -9,9 +9,9 @@ const WorkCard = (props) => {
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
         <p>
-          {props.text}
-          <div className="pro-btns">
-          </div>
+          {props.description}
+          <br></br>
+          {props.skills}
         </p>
       </div>
     </NavLink>
