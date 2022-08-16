@@ -2,6 +2,8 @@ import "./ProjectStyles.css";
 import Footer from '../Components/FooterComponents/Footer'
 import AltHeroImage from '../Components/HeroImageComponents/AltHeroImage'
 import NavBar from '../Components/NavBarComponents/NavBar'
+import TitanicPython from '../Components/PythonComponents/TitanicPython.js'
+
 import React from 'react'
 
 const Project1Page = () => {
@@ -9,7 +11,8 @@ const Project1Page = () => {
     <div>
       <NavBar />
       <AltHeroImage heading="Titanic" text="Machine Learning Competition" />
-      Titanic Stuff
+      <TitanicPython/>
+
       <Footer />
     </div>
   )
