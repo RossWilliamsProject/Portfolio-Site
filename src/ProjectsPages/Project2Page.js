@@ -1,6 +1,8 @@
 import "./ProjectStyles.css";
-import NavBar from '../Components/NavBarComponents/NavBar';
 import Footer from '../Components/FooterComponents/Footer'
+import AltHeroImage from '../Components/HeroImageComponents/AltHeroImage'
+import NavBar from '../Components/NavBarComponents/NavBar'
+import CovidR from '../Components/PythonComponents/CovidR.js'
 
 import React from 'react'
 
@@ -8,7 +10,9 @@ const Project2Page = () => {
   return (
     <div>
       <NavBar />
-      Project 2
+      <AltHeroImage heading="Covid-19" text="Exploratory Data Analysis" />
+      <CovidR/>
+
       <Footer />
     </div>
   )
