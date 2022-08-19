@@ -1,6 +1,6 @@
 import "./FooterStyles.css";
 import { FaMailBulk, FaLinkedin, FaGithub } from "react-icons/fa"
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
     return (
@@ -8,28 +8,28 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="left">
                     <div className="email">
-                        <h4>
-                            <FaMailBulk size={20} style={{
-                                color: "#fff", marginRight: "2rem"
-                            }} />
-                            rosswilliamsrw11@gmail.com
-                        </h4>
+                            <h4 href='rosswilliamsrw11@gmail.com'>
+                                <FaMailBulk size={20} style={{
+                                    color: "#fff", marginRight: "2rem"
+                                }} />
+                                Email
+                            </h4>
                     </div>
                     <div className="GitHub">
-                        <h4>
-                            <FaGithub size={20} style={{
-                                color: "#fff", marginRight: "2rem"
-                            }} />
-                            https://github.com/RossWilliamsProject
-                        </h4>
+                            <h4 href='https://github.com/RossWilliamsProject'>
+                                <FaGithub size={20} style={{
+                                    color: "#fff", marginRight: "2rem"
+                                }} />
+                                GitHub
+                            </h4>
                     </div>
                     <div className="LinkedIn">
-                        <h4>
-                            <FaLinkedin size={20} style={{
-                                color: "#fff", marginRight: "2rem"
-                            }} />
-                            https://www.linkedin.com/in/ross-williams-3a433b213/
-                        </h4>
+                            <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                                <FaLinkedin size={20} style={{
+                                    color: "#fff", marginRight: "2rem"
+                                }} />
+                                LinkedIn
+                            </h4>
                     </div>
                 </div>
                 <div className="right">
