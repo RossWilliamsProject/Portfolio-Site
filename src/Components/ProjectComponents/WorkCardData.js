@@ -1,7 +1,6 @@
-import tesselation from "C:/Work/NotUni/portfolio-site/src/Assets/tesselation.jpg";
-import titanic from "C:/Work/NotUni/portfolio-site/src/Assets/titanic.jpg";
-import covid from "C:/Work/NotUni/portfolio-site/src/Assets/covid.jpg";
-import tesselation2 from "C:/Work/NotUni/portfolio-site/src/Assets/tesselation2.png";
+import tesselation from "../../Assets/tesselation.jpg";
+import titanic from "../../Assets/titanic.jpg";
+import covid from "../../Assets/covid.jpg";
 
 const ProjectCardData = [
     {

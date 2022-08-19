@@ -1,6 +1,6 @@
 import "./AboutContentStyles.css";
-import tesselation from "C:/Work/NotUni/portfolio-site/src/Assets/tesselation.jpg";
-import tesselation2 from "C:/Work/NotUni/portfolio-site/src/Assets/tesselation2.png";
+import tesselation from "../../Assets/tesselation.jpg";
+import tesselation2 from "../../Assets/tesselation2.png";
 
 import React from 'react';
 import { Link } from "react-router-dom";

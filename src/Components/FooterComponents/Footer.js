@@ -12,7 +12,23 @@ const Footer = () => {
                             <FaMailBulk size={20} style={{
                                 color: "#fff", marginRight: "2rem"
                             }} />
-                            emailExample@gmail.com
+                            rosswilliamsrw11@gmail.com
+                        </h4>
+                    </div>
+                    <div className="GitHub">
+                        <h4>
+                            <FaGithub size={20} style={{
+                                color: "#fff", marginRight: "2rem"
+                            }} />
+                            https://github.com/RossWilliamsProject
+                        </h4>
+                    </div>
+                    <div className="LinkedIn">
+                        <h4>
+                            <FaLinkedin size={20} style={{
+                                color: "#fff", marginRight: "2rem"
+                            }} />
+                            https://www.linkedin.com/in/ross-williams-3a433b213/
                         </h4>
                     </div>
                 </div>

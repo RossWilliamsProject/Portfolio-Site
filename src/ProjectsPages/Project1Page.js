@@ -3,15 +3,21 @@ import Footer from '../Components/FooterComponents/Footer'
 import AltHeroImage from '../Components/HeroImageComponents/AltHeroImage'
 import NavBar from '../Components/NavBarComponents/NavBar'
 import TitanicPython from '../Components/PythonComponents/TitanicPython.js'
+import { useEffect } from 'react';
 
 import React from 'react'
 
 const Project1Page = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
       <NavBar />
       <AltHeroImage heading="Titanic" text="Machine Learning Competition" />
-      <TitanicPython/>
+      <TitanicPython />
 
       <Footer />
     </div>

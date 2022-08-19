@@ -1,5 +1,5 @@
 import "./HeroImageStyles.css";
-import tesselation from "C:/Work/NotUni/portfolio-site/src/Assets/tesselation.jpg";
+import tesselation from "../../Assets/tesselation.jpg";
 import React from 'react';
 
 const HomeHeroImage = () => {
