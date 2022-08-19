@@ -198,7 +198,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "2.55pt", "margin-left": "23.15pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={540} height={243} src={image002} vShapes="Picture_x0020_271" />
+                        <img alt="" align="center" width={540} height={243} src={image002} vShapes="Picture_x0020_271" />
                     </span>
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "8.0pt", "margin-left": "-.75pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "tab-stops": "center 36.0pt 72.0pt 108.0pt 197.0pt" }}>
@@ -226,26 +226,19 @@ const CovidR = () => {
                     interaction, and inspecting countries that stood out the most as seemingly
                     large (or low) amounts of deaths, essentially, exploring outliers.
                     <span style={{ "mso-spacerun": "yes" }}>
-
                     </span>
+                    <br></br>
+                    <br></br>
                 </p>
                 <p className="MsoNormal" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "3.05pt", "margin-left": "0cm", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-ignore": "vglayout" }}>
                     </span>
                 </p>
-                <table cellPadding={0} cellSpacing={0} align="left">
-                    <tbody>
-                        <tr>
-                            <td width={881} height={0} />
-                        </tr>
-                        <tr>
-                            <td />
-                            <td>
-                                <img alt="" width={563} height={118} src={image005} vShapes="Group_x0020_6065 Rectangle_x0020_306 Rectangle_x0020_307 Rectangle_x0020_308 Rectangle_x0020_309 Picture_x0020_409 Picture_x0020_410 Shape_x0020_411" />
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "3.85pt", "margin-left": "54.65pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
+                    <span style={{ "mso-no-proof": "yes" }}>
+                        <img alt="" width={800} height={186} src={image005} />
+                    </span>
+                </p>
                 <br style={{ "mso-ignore": "vglayout" }} clear="ALL" />
                 <p />
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "8.0pt", "margin-left": "-.75pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "tab-stops": "center 36.0pt 72.0pt 224.6pt" }}>
@@ -276,19 +269,11 @@ const CovidR = () => {
                     <span style={{ "mso-ignore": "vglayout" }}>
                     </span>
                 </p>
-                <table cellPadding={0} cellSpacing={0}>
-                    <tbody>
-                        <tr>
-                            <td width={893} height={0} />
-                        </tr>
-                        <tr>
-                            <td />
-                            <td>
-                                <img alt="" width={517} height={176} src={image008} vShapes="Group_x0020_6066 Picture_x0020_412 Picture_x0020_413 Rectangle_x0020_415 Rectangle_x0020_417 Rectangle_x0020_419 Rectangle_x0020_420 Rectangle_x0020_421" />
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "3.85pt", "margin-left": "54.65pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
+                    <span style={{ "mso-no-proof": "yes" }}>
+                        <img alt="" width={490} height={186} src={image008} />
+                    </span>
+                </p>
                 <br style={{ "mso-ignore": "vglayout" }} clear="ALL" />
                 <span style={{ "mso-spacerun": "yes" }}>
 
@@ -386,19 +371,13 @@ const CovidR = () => {
                     <span style={{ "mso-ignore": "vglayout" }}>
                     </span>
                 </p>
-                <table cellPadding={0} cellSpacing={0} align="center">
-                    <tbody>
-                        <tr>
-                            <td width={832} height={0} />
-                        </tr>
-                        <tr>
-                            <td />
-                            <td>
-                                <img alt="" width={646} height={268} src={image010} vShapes="Picture_x0020_517" />
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+
+                <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "3.85pt", "margin-left": "54.65pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
+                    <span style={{ "mso-no-proof": "yes" }}>
+                        <img alt="" width={490} height={186} src={image010} />
+                    </span>
+                </p>
+
                 <br style={{ "mso-ignore": "vglayout" }} clear="ALL" />
                 <p />
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "8.0pt", "margin-left": "-.75pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "tab-stops": "center 36.0pt 72.0pt 108.0pt 144.05pt 233.05pt" }}>
@@ -455,7 +434,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": ".0001pt", "margin-left": "110.8pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={306} height={203} src={image012} vShapes="Picture_x0020_656" />
+                        <img alt="" width={306} height={203} src={image012} />
                     </span>
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "25.3pt", "margin-bottom": "8.0pt", "margin-left": "-.25pt", "-webkit-text-align": "center", "text-align": "center" }}>
@@ -477,7 +456,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "3.85pt", "margin-left": "54.65pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={490} height={186} src={image014} vShapes="Picture_x0020_655" />
+                        <img alt="" width={490} height={186} src={image014} />
                     </span>
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "25.6pt", "margin-bottom": "8.75pt", "margin-left": ".5pt", "-webkit-text-align": "center", "text-align": "center", "line-height": "107%" }}>
@@ -585,7 +564,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "23.3pt", "margin-bottom": "5.0pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={601} height={264} src={image016} vShapes="Picture_x0020_785" />
+                        <img alt="" width={601} height={264} src={image016} />
                         {/*[endif]*/}
                     </span>
                 </p>
@@ -637,7 +616,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "6.25pt", "margin-left": "60.6pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={445} height={215} src={image018} vShapes="Picture_x0020_868" />
+                        <img alt="" width={445} height={215} src={image018} />
                     </span>
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "25.65pt", "margin-bottom": "8.75pt", "margin-left": ".5pt", "-webkit-text-align": "center", "text-align": "center", "line-height": "107%" }}>
@@ -665,7 +644,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "5.6pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={634} height={213} src={image020} vShapes="Picture_x0020_921" />
+                        <img alt="" width={634} height={213} src={image020} />
                     </span>
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "5.95pt", "margin-left": "-.75pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "tab-stops": "center 36.0pt 72.0pt 233.4pt" }}>
@@ -674,7 +653,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "41.75pt", "margin-bottom": "5.6pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={552} height={260} src={image022} vShapes="Picture_x0020_923" />
+                        <img alt="" width={552} height={260} src={image022} />
                     </span>
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "0cm", "margin-bottom": "5.9pt", "margin-left": "-.75pt", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "tab-stops": "center 36.0pt 72.0pt 243.75pt" }}>
@@ -683,7 +662,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "45.5pt", "margin-bottom": "5.6pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={542} height={255} src={image024} vShapes="Picture_x0020_925" />
+                        <img alt="" width={542} height={255} src={image024} />
                         {/*[endif]*/}
                     </span>
                 </p>
@@ -698,7 +677,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "41.15pt", "margin-bottom": "5.75pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={554} height={261} src={image026} vShapes="Picture_x0020_945" />
+                        <img alt="" width={554} height={261} src={image026} />
                         {/*[endif]*/}
                     </span>
                 </p>
@@ -708,7 +687,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "49.9pt", "margin-bottom": "5.6pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={565} height={266} src={image028} vShapes="Picture_x0020_969" />
+                        <img alt="" width={565} height={266} src={image028} />
                         {/*[endif]*/}
                     </span>
                 </p>
@@ -718,7 +697,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "50.75pt", "margin-bottom": "5.6pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={528} height={248} src={image030} vShapes="Picture_x0020_971" />
+                        <img alt="" width={528} height={248} src={image030} />
                         {/*[endif]*/}
                     </span>
                 </p>
@@ -728,7 +707,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "43.1pt", "margin-bottom": "5.75pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={549} height={294} src={image032} vShapes="Picture_x0020_989" />
+                        <img alt="" width={549} height={294} src={image032} />
                         {/*[endif]*/}
                     </span>
                 </p>
@@ -743,7 +722,7 @@ const CovidR = () => {
                 </p>
                 <p className="MsoNormal" align="center" style={{ "margin-top": "0cm", "margin-right": "44.75pt", "margin-bottom": "5.6pt", "margin-left": "0cm", "-webkit-text-align": "center", "text-align": "center", "-webkit-text-indent": "0cm", "text-indent": "0cm", "line-height": "107%" }}>
                     <span style={{ "mso-no-proof": "yes" }}>
-                        <img alt="" width={544} height={274} src={image034} vShapes="Picture_x0020_999" />
+                        <img alt="" width={544} height={274} src={image034} />
                         {/*[endif]*/}
                     </span>
                 </p>
