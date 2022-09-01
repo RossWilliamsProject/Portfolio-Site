@@ -14,9 +14,9 @@ const HomeHeroImage = () => {
             <div className="content">
                 <h1>Ross Williams</h1>
                 <p>Software Development Portfolio</p>
-                <p>Scroll For Projects</p>
-                <p>v</p>
-
+                <div className="down">
+                    <p >↓</p>
+                </div>
                 <div className="btn-container">
                     {/*}
                     <Link to="/Projects" className="btn">

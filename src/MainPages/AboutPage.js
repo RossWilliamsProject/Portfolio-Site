@@ -14,7 +14,7 @@ const AboutPage = () => {
     return (
         <div>
             <NavBar />
-            <AltHeroImage heading="About" text="Details About Me"/>
+            <AltHeroImage heading="About" text="Who Am I?"/>
             <AboutContent />
             <Footer />
         </div>

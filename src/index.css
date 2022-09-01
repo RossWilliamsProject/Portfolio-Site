@@ -21,7 +21,6 @@ ul{
   list-style-type: none;
 }
 
-
 .btn-light {
   background: transparent;
   color: #fff;
@@ -47,6 +46,11 @@ ul{
   cursor: pointer;
 }
 
+.divider{
+  width:1rem;
+  height:auto;
+  display:inline-block;
+}
 
 .btn-light {
   background: transparent;

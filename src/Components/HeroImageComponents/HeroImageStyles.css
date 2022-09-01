@@ -48,6 +48,15 @@
     text-transform: uppercase;
 }
 
+.hero .content .down p{
+    color: #293845;
+    text-decoration: none;
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+    bottom: -20rem;
+}
+
 .content .btn {
     padding: 1rem 3rem;
     margin: 3rem 2rem;
