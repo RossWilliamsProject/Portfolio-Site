@@ -27,7 +27,7 @@
     text-align: center;
     margin: auto;
     padding: 1rem;
-    max-width: 40rem;
+    max-width: 25rem;
 }
 
 .about .left p {
@@ -37,12 +37,12 @@
 
 .about .right {
     margin: 1.2rem 4rem;
-    max-width: 900px;
+    max-width: 25rem;
 }
 
 .right .img-container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(8,1fr);
     position: relative;
     align-items: center;
     text-align: center;
