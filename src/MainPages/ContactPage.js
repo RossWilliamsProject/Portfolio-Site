@@ -9,13 +9,14 @@ const ContactPage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
 
     return (
         <div>
             <NavBar />
-            <AltHeroImage heading="Contact" text="How to Reach Out"/>
+            <AltHeroImage heading="Contact" text="How to Reach Out" />
             <Form />
+            <br></br><br></br>
             <Footer />
         </div>
     )

@@ -1,11 +1,11 @@
 import "./FormStyles.css"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { FaMailBulk, FaLinkedin } from "react-icons/fa"
 
 const Form = () => {
 
     const form = useRef();
-
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -21,32 +21,47 @@ const Form = () => {
 
     return (
         <div className="formBox">
-
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className="formBox">
+                <h1>
+                    Contact Form:
+                </h1>
                 <label className="text">
                     Name
                 </label>
-                <br></br>
                 <input type="text" name="user_name" className="box" />
-                <br></br>
 
                 <label className="text">
                     Email
                 </label>
-                <br></br>
                 <input type="email" name="user_email" className="box" />
-                <br></br>
 
                 <label className="text">
                     Message
                 </label>
-                <br></br>
                 <textarea name="message" className="box" rows="6" placeholder="Type Your Message Here" />
-                <br></br>
 
                 <input type="submit" value="Send" className="btn" />
             </form>
-
+            <h1>
+                Alternative Contact
+            </h1>
+            <br></br>
+            <div className="email">
+                <h4 href='rosswilliamsrw11@gmail.com'>
+                    <FaMailBulk size={20} style={{
+                        color: "#000", marginRight: "2rem"
+                    }} />
+                    rosswilliamsrw11@gmail.com
+                </h4>
+            </div>
+            <div className="LinkedIn">
+                <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                    <FaLinkedin size={20} style={{
+                        color: "#000", marginRight: "2rem"
+                    }} />
+                    www.linkedin.com/in/ross-williams-3a433b213/
+                </h4>
+            </div>
         </div>
     )
 }
