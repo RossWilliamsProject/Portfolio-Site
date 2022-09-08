@@ -15,8 +15,6 @@ const Footer = () => {
                             rosswilliamsrw11@gmail.com
                         </h4>
                     </div>
-                    <br></br>
-
                     <div className="GitHub">
                         <h4 href='https://github.com/RossWilliamsProject'>
                             <FaGithub size={20} style={{
@@ -25,7 +23,6 @@ const Footer = () => {
                             https://github.com/RossWilliamsProject
                         </h4>
                     </div>
-                    <br></br>
                     <div className="LinkedIn">
                         <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
                             <FaLinkedin size={20} style={{

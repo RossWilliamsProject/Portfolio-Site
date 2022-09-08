@@ -20,49 +20,54 @@ const Form = () => {
     };
 
     return (
-        <div className="formBox">
-            <form ref={form} onSubmit={sendEmail} className="formBox">
+        <div>
+            <div className="formBox">
+                <form ref={form} onSubmit={sendEmail} className="formBox">
+                    <h1>
+                        Contact Form:
+                    </h1>
+                    <label className="text">
+                        Name
+                    </label>
+                    <input type="text" name="user_name" className="box" />
+
+                    <label className="text">
+                        Email
+                    </label>
+                    <input type="email" name="user_email" className="box" />
+
+                    <label className="text">
+                        Message
+                    </label>
+                    <textarea name="message" className="box" rows="6" placeholder="Type Your Message Here" />
+
+                    <input type="submit" value="Send" className="btn" />
+                </form>
+            </div>
+
+            <div className="altbox">
                 <h1>
-                    Contact Form:
+                    Alternative Contact
                 </h1>
-                <label className="text">
-                    Name
-                </label>
-                <input type="text" name="user_name" className="box" />
-
-                <label className="text">
-                    Email
-                </label>
-                <input type="email" name="user_email" className="box" />
-
-                <label className="text">
-                    Message
-                </label>
-                <textarea name="message" className="box" rows="6" placeholder="Type Your Message Here" />
-
-                <input type="submit" value="Send" className="btn" />
-            </form>
-            <h1>
-                Alternative Contact
-            </h1>
-            <br></br>
-            <div className="email">
-                <h4 href='rosswilliamsrw11@gmail.com'>
-                    <FaMailBulk size={20} style={{
-                        color: "#000", marginRight: "2rem"
-                    }} />
-                    rosswilliamsrw11@gmail.com
-                </h4>
+                <br></br>
+                <div className="email">
+                    <h4 href='rosswilliamsrw11@gmail.com'>
+                        <FaMailBulk size={20} style={{
+                            color: "#000", marginRight: "2rem"
+                        }} />
+                        rosswilliamsrw11@gmail.com
+                    </h4>
+                </div>
+                <div className="LinkedIn">
+                    <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                        <FaLinkedin size={20} style={{
+                            color: "#000", marginRight: "2rem"
+                        }} />
+                        www.linkedin.com/in/ross-williams-3a433b213/
+                    </h4>
+                </div>
             </div>
-            <div className="LinkedIn">
-                <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
-                    <FaLinkedin size={20} style={{
-                        color: "#000", marginRight: "2rem"
-                    }} />
-                    www.linkedin.com/in/ross-williams-3a433b213/
-                </h4>
-            </div>
-        </div>
+        </div>        
     )
 }
 

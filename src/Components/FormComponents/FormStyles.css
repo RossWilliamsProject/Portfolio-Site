@@ -8,7 +8,15 @@
     flex-direction: column;
     padding: 2rem ;
     margin: auto;
-    max-width: 35rem;
+    max-width: 50rem;
+}
+
+.altbox {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 7.5rem;
+    margin: auto;
+    max-width: 50rem;
 }
 
 .formBox .box{
