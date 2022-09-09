@@ -1,8 +1,6 @@
 import "./AboutContentStyles.css";
 import ross from "../../Assets/ross.jpg";
-
 import React from 'react';
-import { Link } from "react-router-dom";
 
 const AboutContent = () => {
     return (

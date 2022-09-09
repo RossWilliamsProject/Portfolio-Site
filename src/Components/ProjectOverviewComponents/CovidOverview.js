@@ -2,7 +2,6 @@ import "./CovidOverviewStyles.css";
 import ross from "../../Assets/ross.jpg";
 
 import React from 'react';
-import { Link } from "react-router-dom";
 
 const CovidOverview = () => {
     return (
