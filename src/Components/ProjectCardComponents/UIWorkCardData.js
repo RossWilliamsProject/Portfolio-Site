@@ -2,7 +2,7 @@ import tesselation from "../../Assets/tesselation.jpg";
 import titanic from "../../Assets/titanic.jpg";
 import covid from "../../Assets/covid.jpg";
 
-const ProjectCardData = [
+const UIWorkCardData = [
     {
         imgsrc: titanic,
         title: "Titanic ML",
@@ -24,4 +24,4 @@ const ProjectCardData = [
         view: "/Project3"
     }
 ]
-export default ProjectCardData;
+export default UIWorkCardData;

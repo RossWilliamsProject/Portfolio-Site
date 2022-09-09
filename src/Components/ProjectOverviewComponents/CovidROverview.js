@@ -1,19 +1,19 @@
-import "./CovidOverviewStyles.css";
-import ross from "../../Assets/ross.jpg";
-
+import "./CovidROverviewStyles.css";
+import covid from "../../Assets/covid.jpg";
 import React from 'react';
 
-const CovidOverview = () => {
+const CovidROverview = () => {
     return (
-        <div className="about">
+        <div className="overview">
             <div className="left">
                 <h1>
-                    Hello, I'm Ross
+                    COVID Exploratory Data Analysis 
                 </h1>
                 <p>
-                    Presently a computer science masters sudent at the University of Nottingham in my fourth and final year.
-                    Currently predicted a First Class after achieving 76% in my third year!
-                    Now pursuing a career related to my primary interests in data science and human computer interaction.
+                    Written in R, Blah bblah blah balha. Blah bblah blah balha. Blah bblah blah balha.
+                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
+                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
+                    Blah bblah blah balha.  
                 </p>
                 <p>
                     "What a strange combo!" - I believe that data and UI have loads in common,
@@ -33,11 +33,11 @@ const CovidOverview = () => {
             </div>
             <div className="right">
                 <div>
-                    <img src={ross} alt="ross" className="img" />
+                    <img src={covid} alt="covid" className="img" />
                 </div>
             </div>
         </div>
     )
 }
 
-export default CovidOverview
+export default CovidROverview

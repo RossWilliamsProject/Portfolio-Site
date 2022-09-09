@@ -25,7 +25,7 @@
 
 .hero {
     height: 100%;
-    width: 100%;
+    width: 100%;    
 }
 
 .hero .content {
@@ -33,7 +33,6 @@
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    text-align: center;
 }
 
 .hero .content h1 {
@@ -48,13 +47,14 @@
     text-transform: uppercase;
 }
 
-.hero .content .down p{
+.hero .bottom p {
     color: #293845;
     text-decoration: none;
     font-size: 5rem;
     font-weight: bold;
-    position: relative;
-    bottom: -20rem;
+    position: absolute;
+    bottom: 0.5rem;
+    padding-left: 48%;
 }
 
 .content .btn {
@@ -66,10 +66,11 @@
     .hero .content h1 {
         font-size: 3rem;
     }
-    
+
     .hero .content p {
         font-size: 1.4rem;
     }
+
     .content .btn {
         margin: 1rem;
     }

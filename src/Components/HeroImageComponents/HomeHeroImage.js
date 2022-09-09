@@ -11,12 +11,10 @@ const HomeHeroImage = () => {
                     alt="tesselation"
                 />
             </div>
-            <div className="content">
+            <div className="content">   
                 <h1>Ross Williams</h1>
                 <p>Software Development Portfolio</p>
-                <div className="down">
-                    <p >⌄</p>
-                </div>
+
                 <div className="btn-container">
                     {/*}
                     <Link to="/Projects" className="btn">
@@ -27,6 +25,9 @@ const HomeHeroImage = () => {
                     </Link>
                     */}
                 </div>
+            </div>
+            <div className="bottom">
+                <p >⌄</p>
             </div>
         </div>
     )

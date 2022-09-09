@@ -11,20 +11,19 @@ const AboutContent = () => {
                 </h1>
                 <p>
                     Presently a computer science masters sudent at the University of Nottingham in my fourth and final year.
-                    Currently predicted a First Class after achieving 76% in my third year!
+                    Predicted a First Class after achieving an average grade of 76% in my third year.
                     Now pursuing a career related to my primary interests in data science and human computer interaction.
                 </p>
                 <p>
-                    "What a strange combo!" - I believe that data and UI have loads in common,
+                    "What an odd combination" - I believe that data science and UI have a lot in common,
                     both have a fundemental foundation of comprehension and understanding.
                     In data - that understanding is recognising the story the data tells,
-                    and in UI/UX the skill is allowing users to follow their own story and interact
-                    with the data in a specific way - afterall,
-                    interface design without data is not a functional system!
+                    and in UI/UX the skill is allowing users to data in their own specific way - afterall,
+                    "an interface without data is simply decoration". 
                 </p>
                 <p>
                     After undertaking a few large projects using Javascript and React
-                    (such as my dissertation, and personal portfolio website),
+                    (such as my dissertation and personal portfolio website),
                     I've decided to branch out and learn more about the field of data science
                     - with modules at university in R under my belt already, I've been brushing up on my Python skills,
                     and learning more about machine learning.

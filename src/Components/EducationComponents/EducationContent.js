@@ -22,10 +22,10 @@ const EducatonContent = () => {
                     Informal Education
                 </h1>
                 <p>
-                    I pride myself on continuing my learning outside of university, and I enjoy exploring
-                    subjects not covered in full detail in my official education. This includes completing all available
-                    Python and associated libraries in data manipulation, visualisation, and machine learning learning
-                    courses on Kaggle, alongside smaller accomplishments such as machine learning competitions on the same site,
+                    I pride myself on continuing my learning outside of university and I enjoy exploring
+                    subjects not covered in full detail in my official education. This outside learning includes completing all available
+                    Python and associated libraries in data manipulation, visualisation, and machine learning
+                    courses on Kaggle alongside smaller accomplishments such as machine learning competitions on the same site
                     and an SQL course on Udemy.
                 </p>
                 <br></br>
