@@ -5,9 +5,12 @@ import AboutPage from "./MainPages/AboutPage";
 import ProjectsPage from "./MainPages/ProjectsPage";
 import ContactPage from "./MainPages/ContactPage";
 
-import Project1Page from "./ProjectsPages/Project1Page";
-import Project2Page from "./ProjectsPages/Project2Page";
+import CovidRPage from "./ProjectsPages/CovidRPage";
+import DissertationPage from "./ProjectsPages/DissertationPage";
 import Project3Page from "./ProjectsPages/Project3Page";
+import MealPlannerPage from "./ProjectsPages/MealPlannerPage";
+import PortfolioPage from "./ProjectsPages/PortfolioPage";
+import TitanicPage from "./ProjectsPages/TitanicPage";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -21,9 +24,12 @@ function App() {
         <Route path="/Contact" element={<ContactPage/>} />
 
 
-        <Route path="/Project1" element={<Project1Page/>} />
-        <Route path="/Project2" element={<Project2Page/>} />
+        <Route path="/CovidRPage" element={<CovidRPage/>} />
+        <Route path="/DissertationPage" element={<DissertationPage/>} />
         <Route path="/Project3" element={<Project3Page/>} />
+        <Route path="/MealPlannerPage" element={<MealPlannerPage/>} />
+        <Route path="/PortfolioPage" element={<PortfolioPage/>} />
+        <Route path="/TitanicPage" element={<TitanicPage/>} />
 
       </Routes>
     </>

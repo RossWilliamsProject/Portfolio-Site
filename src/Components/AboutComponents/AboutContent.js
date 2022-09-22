@@ -31,7 +31,7 @@ const AboutContent = () => {
             </div>
             <div className="right">
                 <div>
-                    <img src={ross} alt="ross" className="img" />
+                    <img src={ross} alt="ross" className="image" />
                 </div>
             </div>
         </div>

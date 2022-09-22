@@ -3,12 +3,13 @@ import NavBar from '../Components/NavBarComponents/NavBar';
 import Footer from '../Components/FooterComponents/Footer'
 
 import React from 'react'
+import Project3Overview from "../Components/ProjectOverviewComponents/Project3Overview";
 
 const Project3Page = () => {
   return (
     <div>
       <NavBar />
-      Project 3
+      <Project3Overview/>
       <Footer />
     </div>
   )

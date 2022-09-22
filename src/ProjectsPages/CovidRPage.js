@@ -10,7 +10,7 @@ import CovidROverview from '../Components/ProjectOverviewComponents/CovidROvervi
 
 
 
-const Project2Page = () => {
+const CovidRPage = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -27,4 +27,4 @@ const Project2Page = () => {
   )
 }
 
-export default Project2Page
+export default CovidRPage

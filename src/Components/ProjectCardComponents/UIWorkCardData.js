@@ -1,27 +1,28 @@
-import tesselation from "../../Assets/tesselation.jpg";
-import titanic from "../../Assets/titanic.jpg";
-import covid from "../../Assets/covid.jpg";
+import dissertation from "../../Assets/dissertation.png";
+import mealPlan from "../../Assets/mealplan.jpg";
+import portfolio from "../../Assets/portfolio.png";
 
 const UIWorkCardData = [
     {
-        imgsrc: titanic,
-        title: "Titanic ML",
-        description: "A project based around survival prediction using the Titanic ML database, my first python data science project ouside of university.",
-        skills: "Skills Used: Python, Pandas, Scikit-Learn",
-        view: "/Project1"
+        imgsrc: dissertation,
+        title: "Learning Applications",
+        description: "A research dissertation based around learning motivation retention using three application prototypes",
+        skills: "Skills Used: React, CSS, Figma",
+        view: "/DissertationPage"
     },
     {
-        imgsrc: covid,
-        title: "Covid EDA",
-        description: "An Exploratory Data Analysis performed on a large Covid-19 Dataset. Part of a Data Visualisation module completed using R.",
-        skills: "Skills Used: R, GGplot2",
-        view: "/Project2"
+        imgsrc: mealPlan,
+        title: "Meal Planner App",
+        description: "An application created as a group project for students who want to plan meal preparation in advance",
+        skills: "Skills Used: React, CSS, Figma, Firebase",
+        view: "/MealPlannerPage"
     },
     {
-        imgsrc: tesselation,
-        title: "Project Three",
-        text: "this is a short description of project Three",
-        view: "/Project3"
+        imgsrc: portfolio,
+        title: "Portfolio Site",
+        description: "A website designed and developed to display a portfolio of  previous projects to employers",
+        skills: "Skills Used: React, CSS, Figma, Firebase",
+        view: "/PortfolioPage"
     }
 ]
 export default UIWorkCardData;

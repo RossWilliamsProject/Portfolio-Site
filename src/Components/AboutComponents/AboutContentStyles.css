@@ -43,11 +43,11 @@
     justify-content: center;
 }
 
-.right .img {
-    max-width: 90%;
+.right .image {
     border: 7px solid #293845;
     width: 20rem;
-    height: 16.5rem;
+    height: 20rem;
     border-radius: 100%;
     display: inline-block;
+    overflow: "hidden",
 }

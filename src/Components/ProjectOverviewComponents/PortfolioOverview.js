@@ -1,20 +1,19 @@
 import "./OverviewStyles.css";
 import covid from "../../Assets/covid.jpg";
 import React from 'react';
-import { Link } from "react-router-dom";
 
-const CovidROverview = () => {
+const PortfolioOverview = () => {
     return (
         <div className="overview">
             <div className="left">
                 <h1>
-                    COVID Exploratory Data Analysis
+                    PortfolioOverview 
                 </h1>
                 <p>
                     Written in R, Blah bblah blah balha. Blah bblah blah balha. Blah bblah blah balha.
                     Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
                     Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.
+                    Blah bblah blah balha.  
                 </p>
                 <p>
                     "What a strange combo!" - I believe that data and UI have loads in common,
@@ -33,21 +32,12 @@ const CovidROverview = () => {
                 </p>
             </div>
             <div className="right">
-            
                 <div>
-                    <img src={covid} alt="covid" className="image" />
+                    <img src={covid} alt="covid" className="img" />
                 </div>
-                <p>
-                    Languages Used: Blah Blah Blah Blah
-                    <br></br>
-                    Libraries Used: Blah Blah Blah Blah
-                </p>
-                <Link to="">
-                    <button className="btn"> View in GitHub </button>
-                </Link>
             </div>
         </div>
     )
 }
 
-export default CovidROverview
+export default PortfolioOverview
