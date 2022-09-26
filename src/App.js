@@ -6,6 +6,8 @@ import ProjectsPage from "./MainPages/ProjectsPage";
 import ContactPage from "./MainPages/ContactPage";
 
 import CovidRPage from "./ProjectsPages/CovidRPage";
+import CovidRPageCode from "./ProjectsPages/CovidRPageCode";
+
 import DissertationPage from "./ProjectsPages/DissertationPage";
 import Project3Page from "./ProjectsPages/Project3Page";
 import MealPlannerPage from "./ProjectsPages/MealPlannerPage";
@@ -25,6 +27,9 @@ function App() {
 
 
         <Route path="/CovidRPage" element={<CovidRPage/>} />
+        <Route path="/CovidRPageCode" element={<CovidRPageCode/>} />
+
+
         <Route path="/DissertationPage" element={<DissertationPage/>} />
         <Route path="/Project3" element={<Project3Page/>} />
         <Route path="/MealPlannerPage" element={<MealPlannerPage/>} />

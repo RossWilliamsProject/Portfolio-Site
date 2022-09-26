@@ -28,9 +28,15 @@ const CovidR = () => {
             <link rel="themeData" href="20147862_Ross_Williams_report_files/themedata.thmx" />
             <div className="WordSection1" style={{ "paddingRight": "3rem", "paddingLeft": "3rem", "paddingTop": "2rem" }}>
                 <h1 style={{ "margin-left": "-.25pt" }}>
-                    A Case Study – Global
+                    A Case Study – Global Covid-19 Infections
                     <span style={{ "mso-spacerun": "yes" }}>
-
+                    <br></br>
+                    <p className="MsoNormal" style={{ "margin-top": "0cm", "margin-right": "25.3pt", "margin-bottom": ".05pt", "margin-left": "-.25pt" }}>
+                    The aim of this project was to explore the dataset by asking three initial questions, then further exploring 
+                    questions that arose from the answers found. This project was undertaken as part of a data visualisation module,
+                    and achieved a first class grade. 
+                </p>
+                <br></br>
                     </span>
                     Description of Data
                 </h1>

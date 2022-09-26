@@ -14,7 +14,7 @@ const DSWorkCardData = [
         imgsrc: covid,
         title: "Covid EDA",
         description: "An Exploratory Data Analysis performed on a large Covid-19 Dataset. Part of a Data Visualisation module completed using R.",
-        skills: "Skills Used: R, GGplot2",
+        skills: "Skills Used: GGplot2, GGplotly, dplyr",
         view: "/CovidRPage"
     },
     {
