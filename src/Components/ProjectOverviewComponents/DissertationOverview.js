@@ -11,25 +11,24 @@ const DissertationOverview = () => {
                     DissertationOverview
                 </h1>
                 <p>
-                    Blah blah, Blah bblah blah balha. Blah bblah blah balha. Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.lah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.
+                    This project was my dissertation - graded at 76%. The purpose of the study was to investigate the relationship between the use of gamification
+                    methods on an E-Learning platform and student motivation levels. The study was carried out using
+                    three prototypes – one with no gamification methods, one with extrinsic gamification methods, and
+                    another with intrinsic gamification methods (specifically narration). The student’s motivation levels
+                    were measured, analysed and compared using data collected using a professional student
+                    motivation survey, and coded observations.
                 </p>
                 <p>
-                    Blah blah, Blah bblah blah balha. Blah bblah blah balha. Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.lah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.
+                    The study discovered a potential link between the use of both intrinsic and extrinsic gamification
+                    methods and increased student motivation – alongside additional potential conclusions that were
+                    drawn using the subgroups (Boosters and Guzzlers) of the student motivation survey, which
+                    demonstrate possible relationships between gamification methods and anxiety, work avoidance and
+                    self-belief.
                 </p>
                 <p>
-                    Blah blah, Blah bblah blah balha. Blah bblah blah balha. Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.lah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.
+                    The prototypes were iteratively designed and improved using user feedback and existing design frameworks
+                    on FIGMA. Each prototype was written in React Native, as an application for android devices.
+                    This project involved use of complex navigation systems (Tab/Stack) and use of the react animation library. 
                 </p>
                 <Link to="/Projects">
                     <button className="btn"> Back to Projects </button>
