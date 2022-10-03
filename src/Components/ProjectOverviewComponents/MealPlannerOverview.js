@@ -8,7 +8,7 @@ const MealPlannerOverview = () => {
         <div className="overview">
             <div className="left">
                 <h1>
-                    MealPlannerOverview
+                    Meal Planner Application
                 </h1>
                 <p>
                     The Meal Planner App was a project made in a small group under the compant Kainos 

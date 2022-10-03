@@ -7,28 +7,36 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-container">
                 <div className="left">
+                    <div className="GitHub">
+                        <h4>
+                            <a href="https://github.com/RossWilliamsProject">
+                                <FaGithub size={20} style={{
+                                    color: "#fff", marginRight: "2rem"
+                                }} />
+                            </a>
+                            <a href="https://github.com/RossWilliamsProject">
+                                GitHub
+                            </a>
+                        </h4>
+                    </div>
+                    <div className="LinkedIn">
+                        <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                            <a href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                                <FaLinkedin size={20} style={{
+                                    color: "#fff", marginRight: "2rem"
+                                }} />
+                            </a>
+                            <a href="www.linkedin.com/in/ross-williams-3a433b213/">
+                                LinkedIn
+                            </a>
+                        </h4>
+                    </div>
                     <div className="email">
                         <h4 href='rosswilliamsrw11@gmail.com'>
                             <FaMailBulk size={20} style={{
                                 color: "#fff", marginRight: "2rem"
                             }} />
-                            rosswilliamsrw11@gmail.com
-                        </h4>
-                    </div>
-                    <div className="GitHub">
-                        <h4 href='https://github.com/RossWilliamsProject'>
-                            <FaGithub size={20} style={{
-                                color: "#fff", marginRight: "2rem"
-                            }} />
-                            https://github.com/RossWilliamsProject
-                        </h4>
-                    </div>
-                    <div className="LinkedIn">
-                        <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
-                            <FaLinkedin size={20} style={{
-                                color: "#fff", marginRight: "2rem"
-                            }} />
-                            www.linkedin.com/in/ross-williams-3a433b213/
+                            Email: rosswilliamsrw11@gmail.com
                         </h4>
                     </div>
                 </div>

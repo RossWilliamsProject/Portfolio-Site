@@ -11,7 +11,7 @@ const AboutContent = () => {
                 </h1>
                 <p>
                     Presently a computer science masters sudent at the University of Nottingham in my fourth and final year.
-                    Predicted a First Class after achieving an average grade of 76% in my third year.
+                    Predicted a First Class after achieving a First Class in all graded years so far.
                     Now pursuing a career related to my primary interests in data science and human computer interaction.
                 </p>
                 <p>

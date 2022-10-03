@@ -59,15 +59,17 @@ const Form = () => {
                     </h4>
                 </div>
                 <div className="LinkedIn">
-                    <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
-                        <FaLinkedin size={20} style={{
-                            color: "#000", marginRight: "2rem"
-                        }} />
-                        www.linkedin.com/in/ross-williams-3a433b213/
-                    </h4>
+                    <a href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                        <h4>
+                            <FaLinkedin size={20} style={{
+                                color: "#000", marginRight: "2rem"
+                            }} />
+                            LinkedIn
+                        </h4>
+                    </a>
                 </div>
             </div>
-        </div>        
+        </div>
     )
 }
 

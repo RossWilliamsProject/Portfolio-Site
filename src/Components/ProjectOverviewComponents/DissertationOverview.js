@@ -8,7 +8,7 @@ const DissertationOverview = () => {
         <div className="overview">
             <div className="left">
                 <h1>
-                    DissertationOverview
+                    Learning Application Research
                 </h1>
                 <p>
                     This project was my dissertation - graded at 76%. The purpose of the study was to investigate the relationship between the use of gamification

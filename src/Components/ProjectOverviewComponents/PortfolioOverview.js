@@ -8,28 +8,28 @@ const PortfolioOverview = () => {
         <div className="overview">
             <div className="left">
                 <h1>
-                    PortfolioOverview
+                    Software Portfolio Website
                 </h1>
                 <p>
-                    Blah blah, Blah bblah blah balha. Blah bblah blah balha. Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.lah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.
+                    This project is this website! I designed and developed the entire thing from
+                    scratch - from the very first UI design on figma, to the CSS you're looking at now.
+                    The site is written in react and associated react libraries (such as react animation, navigation
+                    and router dom), with heavy use of CSS. The site is hosted using Google firebase,
+                    a site and API that I was familiar with from previous use.
+                    Most of the site works using "conditional rendering" - which works by detecting the width of the screen
+                    that the site is open on and then adjusting the CSS to fit. For example, the mobile site uses a hamburger
+                    button instead of a navigation bar. 
                 </p>
                 <p>
-                    Blah blah, Blah bblah blah balha. Blah bblah blah balha. Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.lah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.
+                    The most difficult part of this project was ensuring the design was "interesting" - but projects
+                    and the skills needed for each one are still easy to understand at a glance.
+                    I did this using a "card" based system that have a
+                    high glance value - composed of react components that are filled based on a data file
+                    (so new projects can be added easily).
                 </p>
                 <p>
-                    Blah blah, Blah bblah blah balha. Blah bblah blah balha. Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.Blah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.lah bblah blah balha.Blah bblah blah balha.
-                    Blah bblah blah balha.
+                    
+                    The sites progress can be seen on the gitHub, accessable from the button on the right!
                 </p>
                 <Link to="/Projects">
                     <button className="btn"> Back to Projects </button>
@@ -41,9 +41,9 @@ const PortfolioOverview = () => {
                     <img src={portfolio} alt="portfolio" className="image" />
                 </div>
                 <p>
-                    Languages Used: Blah Blah Blah Blah
+                    Languages Used: React, CSS
                     <br></br>
-                    Libraries Used: Blah Blah Blah Blah
+                    Libraries Used: Figma, Firebase
                 </p>
                 <Link to="">
                     <button className="btn"> View in GitHub </button>

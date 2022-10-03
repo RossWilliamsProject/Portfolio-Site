@@ -10,8 +10,7 @@ const EducatonContent = () => {
                     Formal Education
                 </h1>
                 <p>
-                    Msci Computer Science (University of Nottingham): First Class, Average Grade 73% <br></br>
-                    (76% average in 3rd year and 76% graded dissertation)
+                    Msci Computer Science (University of Nottingham): First Class (76% graded dissertation)
                     <br></br><br></br>
                     A-Levels (The Highfield School): A* A A in Computer Science, Maths and Physics
                     <br></br><br></br>
