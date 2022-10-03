@@ -28,7 +28,6 @@ const PortfolioOverview = () => {
                     (so new projects can be added easily).
                 </p>
                 <p>
-                    
                     The sites progress can be seen on the gitHub, accessable from the button on the right!
                 </p>
                 <Link to="/Projects">
