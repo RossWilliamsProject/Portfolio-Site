@@ -44,9 +44,6 @@ const MealPlannerOverview = () => {
                     <br></br>
                     Libraries Used: React Native, Firebase 
                 </p>
-                <Link to="">
-                    <button className="btn"> View in GitHub </button>
-                </Link>
             </div>
         </div>
     )
