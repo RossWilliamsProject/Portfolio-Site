@@ -33,7 +33,7 @@ const EducatonContent = () => {
                         <button className="btn"> Contact </button>
                     </Link>
                     <div className="divider" />
-                    <a href="/RossWilliamsCV.pdf">
+                    <a href="/RossWilliamsCV_v2.1.pdf">
                         <button className="btn"> CV </button>
                     </a>
                 </div>
