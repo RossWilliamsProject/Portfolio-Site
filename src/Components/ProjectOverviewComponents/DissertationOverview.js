@@ -44,9 +44,9 @@ const DissertationOverview = () => {
                     <br></br>
                     Libraries Used: React Native
                 </p>
-                <Link to="">
+                <a href="https://github.com/RossWilliamsProject/finalYearProject">
                     <button className="btn"> View in GitHub </button>
-                </Link>
+                </a>
             </div>
         </div>
     )

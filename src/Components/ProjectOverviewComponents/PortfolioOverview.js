@@ -44,9 +44,9 @@ const PortfolioOverview = () => {
                     <br></br>
                     Libraries Used: React, Firebase
                 </p>
-                <Link to="">
+                <a href="https://github.com/RossWilliamsProject/Portfolio-Site">
                     <button className="btn"> View in GitHub </button>
-                </Link>
+                </a>
             </div>
         </div>
     )

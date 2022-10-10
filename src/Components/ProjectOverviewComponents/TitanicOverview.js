@@ -42,9 +42,9 @@ const TitanicOverview = () => {
                     <br></br>
                     Libraries Used: Pandas, Scikit-Learn, Seaborn
                 </p>
-                <Link to="">
+                <a href="https://github.com/RossWilliamsProject/TitanicML">
                     <button className="btn"> View in GitHub </button>
-                </Link>
+                </a>
 
             </div>
         </div>
