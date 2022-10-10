@@ -20,13 +20,13 @@ const Footer = () => {
                         </h4>
                     </div>
                     <div className="LinkedIn">
-                        <h4 href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                        <h4>
                             <a href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
                                 <FaLinkedin size={20} style={{
                                     color: "#fff", marginRight: "2rem"
                                 }} />
                             </a>
-                            <a href="www.linkedin.com/in/ross-williams-3a433b213/">
+                            <a href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
                                 LinkedIn
                             </a>
                         </h4>
@@ -47,7 +47,7 @@ const Footer = () => {
                     <p>
                         Im Ross,
                         presently a Computer Science MSci student at University of Nottingham in my fourth and final year,
-                        looking for a graduate job in data or UI/UX.
+                        looking for a graduate job in data science or UI/UX.
                     </p>
                 </div>
             </div>

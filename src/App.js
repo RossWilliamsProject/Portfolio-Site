@@ -9,7 +9,7 @@ import CovidRPage from "./ProjectsPages/CovidRPage";
 import CovidRPageCode from "./ProjectsPages/CovidRPageCode";
 
 import DissertationPage from "./ProjectsPages/DissertationPage";
-import Project3Page from "./ProjectsPages/Project3Page";
+import TimeSeriesPage from "./ProjectsPages/TimeSeriesPage";
 import MealPlannerPage from "./ProjectsPages/MealPlannerPage";
 import PortfolioPage from "./ProjectsPages/PortfolioPage";
 import TitanicPage from "./ProjectsPages/TitanicPage";
@@ -31,7 +31,7 @@ function App() {
 
 
         <Route path="/DissertationPage" element={<DissertationPage/>} />
-        <Route path="/Project3" element={<Project3Page/>} />
+        <Route path="/TimeSeriesPage" element={<TimeSeriesPage/>} />
         <Route path="/MealPlannerPage" element={<MealPlannerPage/>} />
         <Route path="/PortfolioPage" element={<PortfolioPage/>} />
         <Route path="/TitanicPage" element={<TitanicPage/>} />

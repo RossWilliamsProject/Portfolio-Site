@@ -3,16 +3,16 @@ import NavBar from '../Components/NavBarComponents/NavBar';
 import Footer from '../Components/FooterComponents/Footer'
 
 import React from 'react'
-import Project3Overview from "../Components/ProjectOverviewComponents/Project3Overview";
+import TimeSeriesOverview from "../Components/ProjectOverviewComponents/TimeSeriesOverview";
 
-const Project3Page = () => {
+const TimeSeriesPage = () => {
   return (
     <div>
       <NavBar />
-      <Project3Overview/>
+      <TimeSeriesOverview/>
       <Footer />
     </div>
   )
 }
 
-export default Project3Page
+export default TimeSeriesPage

@@ -38,9 +38,9 @@ const TitanicOverview = () => {
                     <img src={titanic} alt="titanic" className="image" />
                 </div>
                 <p>
-                    Languages Used: Blah Blah Blah Blah
+                    Languages Used: Python
                     <br></br>
-                    Libraries Used: Blah Blah Blah Blah
+                    Libraries Used: Pandas, Scikit-Learn, Seaborn
                 </p>
                 <Link to="">
                     <button className="btn"> View in GitHub </button>

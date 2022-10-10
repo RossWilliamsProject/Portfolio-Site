@@ -40,9 +40,9 @@ const PortfolioOverview = () => {
                     <img src={portfolio} alt="portfolio" className="image" />
                 </div>
                 <p>
-                    Languages Used: React, CSS
+                    Languages Used: Javascript, CSS
                     <br></br>
-                    Libraries Used: Figma, Firebase
+                    Libraries Used: React, Firebase
                 </p>
                 <Link to="">
                     <button className="btn"> View in GitHub </button>

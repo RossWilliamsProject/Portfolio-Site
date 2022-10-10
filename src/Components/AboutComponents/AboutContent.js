@@ -7,7 +7,7 @@ const AboutContent = () => {
         <div className="about">
             <div className="left">
                 <h1>
-                    Hello, I'm Ross
+                    Hello! I'm Ross
                 </h1>
                 <p>
                     Presently a computer science masters sudent at the University of Nottingham in my fourth and final year.
@@ -15,8 +15,8 @@ const AboutContent = () => {
                     Now pursuing a career related to my primary interests in data science and human computer interaction.
                 </p>
                 <p>
-                    "What an odd combination" - I believe that data science and UI have a lot in common,
-                    both have a fundemental foundation of comprehension and understanding.
+                    I believe that data science and user interface have a lot in common,
+                    both have a fundemental foundation of comprehension and communication.
                     In data - that understanding is recognising the story the data tells,
                     and in UI/UX the skill is allowing users to data in their own specific way - afterall,
                     "an interface without data is simply decoration". 
@@ -25,7 +25,7 @@ const AboutContent = () => {
                     After undertaking a few large projects using Javascript and React
                     (such as my dissertation and personal portfolio website),
                     I've decided to branch out and learn more about the field of data science
-                    - with modules at university in R under my belt already, I've been brushing up on my Python skills,
+                    - with modules at university in R under my belt already, I've been programming mostly in python
                     and learning more about machine learning.
                 </p>
             </div>

@@ -40,9 +40,9 @@ const MealPlannerOverview = () => {
                     <img src={mealplan} alt="mealplan" className="image" />
                 </div>
                 <p>
-                    Languages Used: Blah Blah Blah Blah
+                    Languages Used: Javascript, CSS
                     <br></br>
-                    Libraries Used: Blah Blah Blah Blah
+                    Libraries Used: React Native, Firebase 
                 </p>
                 <Link to="">
                     <button className="btn"> View in GitHub </button>
