@@ -36,7 +36,6 @@ const TimeSeriesOverview = () => {
                 </Link>
             </div>
             <div className="right">
-
                 <div>
                     <img src={store} alt="store" className="image" />
                 </div>
@@ -45,9 +44,11 @@ const TimeSeriesOverview = () => {
                     <br></br>
                     Libraries Used: Pandas, Scikit-Learn
                 </p>
+                {/*
                 <Link to="">
                     <button className="btn"> View in GitHub </button>
                 </Link>
+                    */}
             </div>
         </div>
     )

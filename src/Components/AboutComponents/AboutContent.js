@@ -1,5 +1,5 @@
 import "./AboutContentStyles.css";
-import ross from "../../Assets/ross.jpg";
+import ross from "../../Assets/ross.png";
 import React from 'react';
 
 const AboutContent = () => {
