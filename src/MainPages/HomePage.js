@@ -12,7 +12,7 @@ const HomePage = () => {
       }, [])
 
       useEffect(() => {
-        document.title = "Ross Williams"
+        document.title = "Jasmine Blythe"
       }, [])
 
     return (

@@ -12,8 +12,8 @@ const HomeHeroImage = () => {
                 />
             </div>
             <div className="content">   
-                <h1>Ross Williams</h1>
-                <p>Software Development Portfolio</p>
+                <h1>Jasmine Blythe</h1>
+                <p>Animation Portfolio</p>
 
                 <div className="btn-container">
                     {/*}
