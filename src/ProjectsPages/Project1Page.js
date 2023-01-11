@@ -6,11 +6,11 @@ import NavBar from '../Components/NavBarComponents/NavBar'
 import { useEffect } from 'react';
 import React from 'react'
 
-import CovidROverview from '../Components/ProjectOverviewComponents/CovidROverview.js'
+import Project1Overview from '../Components/ProjectOverviewComponents/Project1Overview.js'
 
 
 
-const CovidRPage = () => {
+const Project1Page = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -20,11 +20,11 @@ const CovidRPage = () => {
     <div>
       <NavBar />
       <AltHeroImage heading="Projects" text="Recent Works"/>
-      <CovidROverview/>
+      <Project1Overview/>
 
       <Footer />
     </div>
   )
 }
 
-export default CovidRPage
+export default Project1Page

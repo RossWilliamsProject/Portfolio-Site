@@ -55,7 +55,7 @@ const Form = () => {
                         <FaMailBulk size={20} style={{
                             color: "#000", marginRight: "2rem"
                         }} />
-                        rosswilliamsrw11@gmail.com
+                        jasmineblahblahblah@gmail.com
                     </h4>
                 </div>
                 <div className="LinkedIn">

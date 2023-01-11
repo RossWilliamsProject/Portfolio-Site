@@ -1,5 +1,5 @@
 import "./HeroImageStyles.css";
-import tesselation from "../../Assets/tesselation.jpg";
+import sea from "../../Assets/seaHero.png";
 import React from 'react';
 
 const HomeHeroImage = () => {
@@ -7,8 +7,8 @@ const HomeHeroImage = () => {
         <div className="hero">
             <div className="mask">
                 <img className="into-img"
-                    src={tesselation}
-                    alt="tesselation"
+                    src={sea}
+                    alt="sea"
                 />
             </div>
             <div className="content">   

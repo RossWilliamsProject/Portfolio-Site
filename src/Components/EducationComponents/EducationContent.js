@@ -10,22 +10,18 @@ const EducatonContent = () => {
                     Formal Education
                 </h1>
                 <p>
-                    Msci Computer Science (University of Nottingham): First Class (76% graded dissertation)
+                blah blah blah blah degree
                     <br></br><br></br>
-                    A-Levels (The Highfield School): A* A A in Computer Science, Maths and Physics
+                    A-Levels (The Highfield School): blah blah blah blah
                     <br></br><br></br>
-                    GCSEs (The Highfield School): 10 in the range A* - A
+                    GCSEs (The Highfield School): blah blah blah blah
                 </p>
                 <br></br>
                 <h1>
                     Informal Education
                 </h1>
                 <p>
-                    I pride myself on continuing my learning outside of university and I enjoy exploring
-                    subjects not covered in full detail in my official education. This outside learning includes completing all available
-                    Python and associated libraries in data manipulation, visualisation, and machine learning
-                    courses on Kaggle alongside smaller accomplishments such as machine learning competitions on the same site
-                    and I have recently started an SQL course on Udemy.
+                    blah blah blah blah
                 </p>
                 <br></br>
                 <div>

@@ -1,15 +1,15 @@
 import "./WorkCardStyles.css";
 import React from 'react'
 import WorkCard from "./WorkCard";
-import DSWorkCardData from "./DSWorkCardData";
-import UIWorkCardData from "./UIWorkCardData";
+import ModellingWorkCardData from "./ModellingWorkCardData";
+import OtherWorkCardData from "./OtherWorkCardData";
 
 const Work = () => {
     return (
         <div className="work-container">
-            <h1 className="project-heading">Data Science Projects</h1>
+            <h1 className="project-heading">Modelling Projects</h1>
             <div className="project-container">
-                {DSWorkCardData.map((val, ind) => {
+                {ModellingWorkCardData.map((val, ind) => {
                     return (
                         <WorkCard 
                             key = {ind}
@@ -23,9 +23,9 @@ const Work = () => {
                 })}
             </div>
 
-            <h1 className="project-heading">UI/UX Projects</h1>
+            <h1 className="project-heading">Other Projects</h1>
             <div className="project-container">
-                {UIWorkCardData.map((val, ind) => {
+                {OtherWorkCardData.map((val, ind) => {
                     return (
                         <WorkCard 
                             key = {ind}

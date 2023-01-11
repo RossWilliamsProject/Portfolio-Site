@@ -7,7 +7,7 @@
 
 .hero2::before {
     content: "";
-    background-image: url(tesselation.jpg);
+    background-image: url(seaHero.png);
     background-size: cover;
     background-position: center;
     height: 100%;
