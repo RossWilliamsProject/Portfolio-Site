@@ -3,7 +3,7 @@ import cat from "../../Assets/cat.jpg";
 import React from 'react';
 import { Link } from "react-router-dom";
 
-const CovidROverview = () => {
+const Project1Overview = () => {
     return (
         <div className="overview">
             <div className="left">
