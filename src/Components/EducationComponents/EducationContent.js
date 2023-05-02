@@ -10,26 +10,20 @@ const EducatonContent = () => {
                     Formal Education
                 </h1>
                 <p>
-                blah blah blah blah degree
+                BA Animation (Nottingham Trent University): Currently Working at a First Class
                     <br></br><br></br>
-                    A-Levels (The Highfield School): blah blah blah blah
+                    A-Levels (The Highfield School): Graphics: A, Art: B, Biology: C
                     <br></br><br></br>
-                    GCSEs (The Highfield School): blah blah blah blah
+                    GCSEs (The Highfield School): 9 in the Range A* - A 
                 </p>
                 <br></br>
-                <h1>
-                    Informal Education
-                </h1>
-                <p>
-                    blah blah blah blah
-                </p>
                 <br></br>
                 <div>
                     <Link to="/contact">
                         <button className="btn"> Contact </button>
                     </Link>
                     <div className="divider" />
-                    <a href="/RossWilliamsCV.pdf">
+                    <a href="/JasmineBlytheCV.pdf">
                         <button className="btn"> CV </button>
                     </a>
                 </div>

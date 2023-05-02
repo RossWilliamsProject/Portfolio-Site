@@ -6,12 +6,10 @@ import ProjectsPage from "./MainPages/ProjectsPage";
 import ContactPage from "./MainPages/ContactPage";
 
 import Project1Page from "./ProjectsPages/Project1Page";
-
-//import DissertationPage from "./ProjectsPages/DissertationPage";
-//import Project2Page from "./ProjectsPages/Project2Page";
-//import MealPlannerPage from "./ProjectsPages/MealPlannerPage";
-//import PortfolioPage from "./ProjectsPages/PortfolioPage";
-//import TitanicPage from "./ProjectsPages/TitanicPage";
+import Project2Page from "./ProjectsPages/Project2Page";
+import Project3Page from "./ProjectsPages/Project3Page";
+import Project4Page from "./ProjectsPages/Project4Page";
+import Project5Page from "./ProjectsPages/Project5Page";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -27,11 +25,10 @@ function App() {
 
         <Route path="/Project1Page" element={<Project1Page/>} />
 
-        <Route path="/Project1Page" element={<Project1Page/>} />
-        <Route path="/Project1Page" element={<Project1Page/>} />
-        <Route path="/Project1Page" element={<Project1Page/>} />
-        <Route path="/Project1Page" element={<Project1Page/>} />
-        <Route path="/Project1Page" element={<Project1Page/>} />
+        <Route path="/Project2Page" element={<Project2Page/>} />
+        <Route path="/Project3Page" element={<Project3Page/>} />
+        <Route path="/Project4Page" element={<Project4Page/>} />
+        <Route path="/Project5Page" element={<Project5Page/>} />
 
       </Routes>
     </>

@@ -51,15 +51,15 @@ const Form = () => {
                 </h1>
                 <br></br>
                 <div className="email">
-                    <h4 href='rosswilliamsrw11@gmail.com'>
+                    <h4 href='jasmine2000blyth@gmail.com'>
                         <FaMailBulk size={20} style={{
                             color: "#000", marginRight: "2rem"
                         }} />
-                        jasmineblahblahblah@gmail.com
+                        jasmine2000blyth@gmail.com
                     </h4>
                 </div>
                 <div className="LinkedIn">
-                    <a href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                    <a href='https://www.linkedin.com/in/jasmine-blythe-a71253253//'>
                         <h4>
                             <FaLinkedin size={20} style={{
                                 color: "#000", marginRight: "2rem"

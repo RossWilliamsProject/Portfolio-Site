@@ -14,17 +14,17 @@ const Footer = () => {
                                     color: "#fff", marginRight: "2rem"
                                 }} />
                             </a>
-                            <a href='https://www.linkedin.com/in/ross-williams-3a433b213/'>
+                            <a href='https://www.linkedin.com/in/jasmine-blythe-a71253253//'>
                                 LinkedIn
                             </a>
                         </h4>
                     </div>
                     <div className="email">
-                        <h4 href='jasmineblahblah@gmail.com'>
+                        <h4 href='jasmine200blyth@gmail.com'>
                             <FaMailBulk size={20} style={{
                                 color: "#fff", marginRight: "2rem"
                             }} />
-                            Email: jasmineblahblah@gmail.com
+                            Email: jasmine200blyth@gmail.com
                         </h4>
                     </div>
                 </div>
@@ -33,7 +33,8 @@ const Footer = () => {
                         About Me
                     </h4>
                     <p>
-                        Im Jasmine, Blah blah blah blah
+                        I'm Jasmine, an animation graduate looking for a job in 3D art. 
+                        Experienced using Maya - see projects page for more details!
                     </p>
                 </div>
             </div>
