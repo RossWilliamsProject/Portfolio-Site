@@ -1,5 +1,6 @@
 import "./OverviewStyles.css";
 import antiqueshop from "../../Assets/antiqueshop.jpg";
+
 import React from 'react';
 import { Link } from "react-router-dom";
 
@@ -26,9 +27,13 @@ const Project1Overview = () => {
                     much more about the modelling pipeline in Maya and Zbrush. I noticed myself becoming quicker at things
                     I had previously found very difficult and stepped out of my comfort zone to create two of my own characters.
                 </p>
+                <p> 
+                    Press button to the right to see more detailed pictures!
+                </p>
                 <Link to="/Projects">
                     <button className="btn"> Back to Projects </button>
                 </Link>
+                <br></br>
             </div>
             <div className="right">
 
@@ -38,7 +43,11 @@ const Project1Overview = () => {
                 <p>
                     Skills Used: Maya, Substance Painter, Zbrush
                 </p>
+                <Link to="/Project1PicsPage">
+                    <button className="btn"> Rendered Images </button>
+                </Link>
             </div>
+
         </div>
     )
 }

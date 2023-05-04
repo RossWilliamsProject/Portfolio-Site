@@ -6,6 +6,8 @@ import ProjectsPage from "./MainPages/ProjectsPage";
 import ContactPage from "./MainPages/ContactPage";
 
 import Project1Page from "./ProjectsPages/Project1Page";
+import Project1PicsPage from "./ProjectsPages/Project1PicsPage";
+
 import Project2Page from "./ProjectsPages/Project2Page";
 import Project3Page from "./ProjectsPages/Project3Page";
 import Project4Page from "./ProjectsPages/Project4Page";
@@ -24,6 +26,7 @@ function App() {
 
 
         <Route path="/Project1Page" element={<Project1Page/>} />
+        <Route path="/Project1PicsPage" element={<Project1PicsPage/>} />
 
         <Route path="/Project2Page" element={<Project2Page/>} />
         <Route path="/Project3Page" element={<Project3Page/>} />
