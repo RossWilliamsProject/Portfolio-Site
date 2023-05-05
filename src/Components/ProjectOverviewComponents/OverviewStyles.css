@@ -30,7 +30,12 @@
     margin: 1.2rem 55rem;
 }
 
-.image {
+.cent {
+    color: white;
+}
+
+
+.cent .image {
     margin: 2rem 10rem;
     width: 106rem;
     height: 60rem;

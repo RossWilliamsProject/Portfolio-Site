@@ -1,13 +1,13 @@
 .hero2 {
     width: 100%;
-    background-color: rgba(102, 161, 130, 0.6);
     height: 30vh;
     position: relative;
+    color: white;
 }
 
 .hero2::before {
     content: "";
-    background-image: url(seaHero.png);
+    background-image: url(main.png);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -16,6 +16,7 @@
     top: 0;
     left: 0;
     z-index: -1;
+    color: white;
 }
 
 .hero2 .content {
@@ -24,4 +25,15 @@
     top: 50%;
     left: 50%;
     text-align: center;
+    color: white;
 }
+
+.hero2 .content p {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.hero2 .content h1 {
+    color: #ffff;
+    text-decoration: none;
+  }

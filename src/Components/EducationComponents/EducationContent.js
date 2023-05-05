@@ -10,7 +10,7 @@ const EducatonContent = () => {
                     Formal Education
                 </h1>
                 <p>
-                BA Animation (Nottingham Trent University): Currently Working at a First Class
+                    BA Animation (Nottingham Trent University): Currently Working at a First Class
                     <br></br><br></br>
                     A-Levels (The Highfield School): Graphics: A, Art: B, Biology: C
                     <br></br><br></br>

@@ -22,7 +22,7 @@ const Project1Overview = () => {
     return (
         <div className="overview">
 
-            <div>
+            <div className="cent">
                 <p> Scene Renders</p>
                 <img src={render1} alt="render1" className="image" />
                 <img src={render2} alt="render2" className="image" />
