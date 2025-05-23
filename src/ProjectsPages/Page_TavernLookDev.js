@@ -5,6 +5,7 @@ import NavBar from '../Components/NavBarComponents/NavBar.js'
 import { useEffect } from 'react';
 
 import PROJECT_TAVERNLOOKDEV from '../Components/ProjectOverviewComponents/Project_TavernLookDev.js'
+import PICS_PROJECT_TAVERNLOOKDEV from "../Components/ProjectOverviewComponents/Pics_Project_TavernLookDev.js";
 
 const PAGE_TAVERNLOOKDEV = () => {
 
@@ -15,9 +16,9 @@ const PAGE_TAVERNLOOKDEV = () => {
   return (
     <div>
       <NavBar />
-      <AltHeroImage heading="Projects" text="Recent Works"/>
-      <PROJECT_TAVERNLOOKDEV/>
-
+      <AltHeroImage heading="Projects" text="Recent Works" />
+      <PROJECT_TAVERNLOOKDEV />
+      <PICS_PROJECT_TAVERNLOOKDEV />
       <Footer />
     </div>
   )

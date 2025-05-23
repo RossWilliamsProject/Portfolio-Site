@@ -4,10 +4,10 @@ import AltHeroImage from '../Components/HeroImageComponents/AltHeroImage.js'
 import NavBar from '../Components/NavBarComponents/NavBar.js'
 import { useEffect } from 'react';
 
-import PROJECT_ANTIQUESHOPLOOKDEV from '../Components/ProjectOverviewComponents/Project_AntiqueShopLookDev.js'
-import PICS_PROJECT_ANTIQUESHOP from "../Components/ProjectOverviewComponents/Pics_Project_AniqueShopPics.js";
+import PROJECT_BLENDERCOURSE from '../Components/ProjectOverviewComponents/Project_BlenderCourse.js'
+import PICS_PROJECT_BLENDERCOURSE from "../Components/ProjectOverviewComponents/Pics_Project_BlenderCourse.js";
 
-const PAGE_ANTIQUESHOPLOOKDEV = () => {
+const PAGE_BLENDERCOURSE = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -17,11 +17,11 @@ const PAGE_ANTIQUESHOPLOOKDEV = () => {
     <div>
       <NavBar />
       <AltHeroImage heading="Projects" text="Recent Works"/>
-      <PROJECT_ANTIQUESHOPLOOKDEV/>
-      <PICS_PROJECT_ANTIQUESHOP/>
+      <PROJECT_BLENDERCOURSE/>
+      <PICS_PROJECT_BLENDERCOURSE/>
       <Footer />
     </div>
   )
 }
 
-export default PAGE_ANTIQUESHOPLOOKDEV
+export default PAGE_BLENDERCOURSE

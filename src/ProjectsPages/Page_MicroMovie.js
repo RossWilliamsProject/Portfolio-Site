@@ -5,6 +5,7 @@ import NavBar from '../Components/NavBarComponents/NavBar.js'
 import { useEffect } from 'react';
 
 import PROJECT_MICROMOVIE from '../Components/ProjectOverviewComponents/Project_MicroMovie.js'
+import PICS_PROJECT_MICROMOVIE from "../Components/ProjectOverviewComponents/Pics_Project_MicroMovie.js";
 
 const PAGE_MICROMOVIE = () => {
 
@@ -17,7 +18,7 @@ const PAGE_MICROMOVIE = () => {
       <NavBar />
       <AltHeroImage heading="Projects" text="Recent Works"/>
       <PROJECT_MICROMOVIE/>
-
+      <PICS_PROJECT_MICROMOVIE/>
       <Footer />
     </div>
   )

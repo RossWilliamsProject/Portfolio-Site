@@ -21,6 +21,9 @@ const PROJECT_MICROMOVIE = () => {
                     stuck with me is desinging enviroments that are easier to animate in - for example, the look development enviroment I created 
                     for this movie (the tavern), was much too dark. I've since learned from my mistakes!
                 </p>
+                <p>
+                    More detailed images for each shot can be seen below.
+                </p>
                 <Link to="/Projects">
                     <button className="btn"> Back to Projects </button>
                 </Link>

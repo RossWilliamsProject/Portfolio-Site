@@ -7,7 +7,7 @@ import OtherWorkCardData from "./OtherWorkCardData";
 const Work = () => {
     return (
         <div className="work-container">
-            <h1 className="project-heading">Modelling Projects</h1>
+            <h1 className="project-heading"> Projects</h1>
             <div className="project-container">
                 {ModellingWorkCardData.map((val, ind) => {
                     return (
@@ -23,7 +23,6 @@ const Work = () => {
                 })}
             </div>
 
-            <h1 className="project-heading">Other Projects</h1>
             <div className="project-container">
                 {OtherWorkCardData.map((val, ind) => {
                     return (

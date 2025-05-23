@@ -2,10 +2,10 @@ import "./ProjectStyles.css";
 import Footer from '../Components/FooterComponents/Footer.js'
 import AltHeroImage from '../Components/HeroImageComponents/AltHeroImage.js'
 import NavBar from '../Components/NavBarComponents/NavBar.js'
-//import CovidR from '../Components/FullProjectComponents/CovidR.js'
 import { useEffect } from 'react';
 
 import PROJECT_LIVECLIENTBRIEF from '../Components/ProjectOverviewComponents/Project_LiveClientBrief.js'
+import PICS_PROJECT_LIVECLIENTBRIEF from "../Components/ProjectOverviewComponents/Pics_Project_LiveClientBrief.js";
 
 const PAGE_LIVECLIENTBRIEF = () => {
 
@@ -18,7 +18,7 @@ const PAGE_LIVECLIENTBRIEF = () => {
       <NavBar />
       <AltHeroImage heading="Projects" text="Recent Works"/>
       <PROJECT_LIVECLIENTBRIEF/>
-
+      <PICS_PROJECT_LIVECLIENTBRIEF/>
       <Footer />
     </div>
   )

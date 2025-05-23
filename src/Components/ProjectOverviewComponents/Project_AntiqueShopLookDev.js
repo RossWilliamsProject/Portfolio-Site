@@ -26,7 +26,7 @@ const PROJECT_ANTIQUELOOKDEV = () => {
                     I had previously found very difficult and stepped out of my comfort zone to create two of my own characters.
                 </p>
                 <p> 
-                    Press button to the right to see more detailed pictures!
+                    See below for more detailed images!
                 </p>
                 <Link to="/Projects">
                     <button className="btn"> Back to Projects </button>
@@ -41,9 +41,6 @@ const PROJECT_ANTIQUELOOKDEV = () => {
                 <p>
                     Skills Used: Maya, Substance Painter, Zbrush
                 </p>
-                <Link to="/">
-                   <button className="btn"> Rendered Images </button>
-                </Link>
             </div>
 
         </div>

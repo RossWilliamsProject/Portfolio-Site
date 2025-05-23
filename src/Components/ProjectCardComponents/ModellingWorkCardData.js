@@ -1,8 +1,15 @@
 import tavern from "../../Assets/TavernLookDev/Tavern4.jpg";
 import antiqueshop from "../../Assets/AntiqueShopLookDev/shop7.jpg";
-import movie from "../../Assets/MicroMovie/movie.jpg";
+import blender from "../../Assets/Blender/blender2.png";
 
 const DSWorkCardData = [
+    {
+        imgsrc: blender,
+        title: "3D modelling in Blender Course",
+        description: "An online modelling course covering modelling, UV unwrapping, and texturing in Blender.",
+        skills: "Skills Used: Blender",
+        view: "/Page_BlenderCourse"
+    },
     {
         imgsrc: antiqueshop,
         title: "Final Year Look Development Project",
@@ -16,13 +23,6 @@ const DSWorkCardData = [
         description: "A second year project involving modelling, texturing and lighting a medieval style tavern and all its assets.",
         skills: "Skills Used: Maya",
         view: "/Page_TavernLookDev"
-    },
-    {
-        imgsrc: movie,
-        title: "5-Shot MicroMovie",
-        description: "A short film about a girl and a magical cat, plotted and storyboarded - set in the aforementioned tavern.",
-        skills: "Skills Used: Maya, Zbrush",
-        view: "/Page_MicroMovie"
     },
 ]
 export default DSWorkCardData;

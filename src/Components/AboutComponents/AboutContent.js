@@ -7,6 +7,8 @@ const AboutContent = () => {
             <div className="left">
                 <h1>
                     Hello! I'm Jasmine.
+
+                    (TO UPDATE)
                 </h1>
                 <p>
                     I'm a 3D artist and Animation graduate from Nottingham Trent University, where I earned a 2:1 in my degree.

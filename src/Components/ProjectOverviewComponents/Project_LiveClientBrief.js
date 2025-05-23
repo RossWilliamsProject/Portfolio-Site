@@ -1,5 +1,5 @@
 import "./OverviewStyles.css";
-import live from "../../Assets/LiveBrief/breif2.png";
+import live from "../../Assets/LiveBrief/brief1.jpg";
 import { Link } from "react-router-dom";
 
 const PROJECT_LIVECLIENTBRIEF = () => {
