@@ -1,10 +1,8 @@
 import "./OverviewStyles.css";
-import antiqueshop from "../../Assets/antiqueshop.jpg";
-
-import React from 'react';
+import antiqueshop from "../../Assets/AntiqueShopLookDev/shop1.png";
 import { Link } from "react-router-dom";
 
-const Project1Overview = () => {
+const PROJECT_ANTIQUELOOKDEV = () => {
     return (
         <div className="overview">
             <div className="left">
@@ -43,8 +41,8 @@ const Project1Overview = () => {
                 <p>
                     Skills Used: Maya, Substance Painter, Zbrush
                 </p>
-                <Link to="/Project1PicsPage">
-                    <button className="btn"> Rendered Images </button>
+                <Link to="/">
+                   <button className="btn"> Rendered Images </button>
                 </Link>
             </div>
 
@@ -52,4 +50,4 @@ const Project1Overview = () => {
     )
 }
 
-export default Project1Overview
+export default PROJECT_ANTIQUELOOKDEV

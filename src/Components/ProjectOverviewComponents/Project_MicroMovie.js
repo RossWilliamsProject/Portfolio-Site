@@ -1,9 +1,8 @@
 import "./OverviewStyles.css";
-import movie from "../../Assets/movie.jpg";
-import React from 'react';
+import movie from "../../Assets/MicroMovie/movie.jpg";
 import { Link } from "react-router-dom";
 
-const Project3Overview = () => {
+const PROJECT_MICROMOVIE = () => {
     return (
         <div className="overview">
             <div className="left">
@@ -39,4 +38,4 @@ const Project3Overview = () => {
     )
 }
 
-export default Project3Overview
+export default PROJECT_MICROMOVIE

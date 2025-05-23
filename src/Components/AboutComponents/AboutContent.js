@@ -1,29 +1,26 @@
 import "./AboutContentStyles.css";
-import jasmine from "../../Assets/Jasmine.jpg";
-import React from 'react';
+import jasmine from "../../Assets/About/Jasmine_v2.jpg";
 
 const AboutContent = () => {
     return (
         <div className="about">
             <div className="left">
                 <h1>
-                    Hello! I'm Jasmine. 
+                    Hello! I'm Jasmine.
                 </h1>
                 <p>
-                    I'm currently an animation student at Nottingham Trent University in my third and final year, 
-                    currently working at a first class. After my graduation in July, I hope to find a great position to further my career goals!
-                    I'm going to be based around London, searching for a job as a 3D artist - as three dimensional modelling and asset/environment creation 
-                    is something that I enjoyed a lot during my degree. 
+                    I'm a 3D artist and Animation graduate from Nottingham Trent University, where I earned a 2:1 in my degree.
+                    During my time at university, I developed a strong passion for three-dimensional modelling and environment/asset creation — areas I continue to be deeply excited about!
+                    I'm also passionate about the theory and principles behind animation, which I explored in-depth during my studies.
+                    Now based near London, I’m actively seeking my first role in the creative industry to grow my skills and contribute to imaginative, high-quality projects.
                 </p>
                 <p>
-                    I have experience with a range of software from my three years at university through many different modules.
-                    Maya, substance painter, Zbrush and photoshop are the usual tools that I use in my work -
-                    more details of how and when I've used them can be seen by looking through my projects in the projects page.
-                    I also pride myself on my understanding of the theory behind animation - I've always enjoyed learning about the principles behind the art!
+                    Since graduating, personal circumstances meant I had to pause my pursuit of a graduate role.
+                    During this time, I have continued developing my skills through independent projects and practice - all of which you can see in action on my Projects page.
+                    Through university and these independent I've become familar with many different software tools - such as Maya, Substance Painter, ZBrush, Blender and Photoshop, all of which you can see in action on my Projects page.
                 </p>
                 <p>
-                    In my spare time, when I'm not pursuing other artistic endevours like drawing, I'm either working hard at the gym, reading a big book, 
-                    or visiting the local cat cafe!
+                    When I’m not working on 3D modelling, you’ll usually find me drawing, lifting weights at the gym, or working as the assistant manager at my local cafe.
                 </p>
             </div>
             <div className="right">

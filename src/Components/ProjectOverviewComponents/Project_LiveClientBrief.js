@@ -1,9 +1,8 @@
 import "./OverviewStyles.css";
-import live from "../../Assets/breif2.png";
-import React from 'react';
+import live from "../../Assets/LiveBrief/breif2.png";
 import { Link } from "react-router-dom";
 
-const Project4Overview = () => {
+const PROJECT_LIVECLIENTBRIEF = () => {
     return (
         <div className="overview">
             <div className="left">
@@ -40,4 +39,4 @@ const Project4Overview = () => {
     )
 }
 
-export default Project4Overview
+export default PROJECT_LIVECLIENTBRIEF

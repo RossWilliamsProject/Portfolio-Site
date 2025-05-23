@@ -1,9 +1,8 @@
 import "./OverviewStyles.css";
-import tavern from "../../Assets/tavern.jpg";
-import React from 'react';
+import tavern from "../../Assets/TavernLookDev/Tavern1.jpg";
 import { Link } from "react-router-dom";
 
-const Project2Overview = () => {
+const PROJECT_TAVERNLOOKDEV = () => {
     return (
         <div className="overview">
             <div className="left">
@@ -40,4 +39,4 @@ const Project2Overview = () => {
     )
 }
 
-export default Project2Overview
+export default PROJECT_TAVERNLOOKDEV

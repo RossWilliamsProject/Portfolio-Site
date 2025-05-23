@@ -1,9 +1,8 @@
 import "./OverviewStyles.css";
-import duck from "../../Assets/duck2.png";
-import React from 'react';
+import duck from "../../Assets/AnimationDissertation/duck2.png";
 import { Link } from "react-router-dom";
 
-const Project5Overview = () => {
+const PROJECT_ANIMATIONDISSERTATION = () => {
     return (
         <div className="overview">
             <div className="left">
@@ -41,4 +40,4 @@ const Project5Overview = () => {
     )
 }
 
-export default Project5Overview
+export default PROJECT_ANIMATIONDISSERTATION

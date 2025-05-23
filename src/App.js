@@ -5,13 +5,13 @@ import AboutPage from "./MainPages/AboutPage";
 import ProjectsPage from "./MainPages/ProjectsPage";
 import ContactPage from "./MainPages/ContactPage";
 
-import Project1Page from "./ProjectsPages/Project1Page";
-import Project1PicsPage from "./ProjectsPages/Project1PicsPage";
+import PAGE_ANTIQUESHOPLOOKDEV from "./ProjectsPages/Page_AntiqueShopLookDev";
+import PAGE_ANTIQUESHOPPICS from "./ProjectsPages/Page_AntiqueShopPics";
 
-import Project2Page from "./ProjectsPages/Project2Page";
-import Project3Page from "./ProjectsPages/Project3Page";
-import Project4Page from "./ProjectsPages/Project4Page";
-import Project5Page from "./ProjectsPages/Project5Page";
+import PAGE_TAVERNLOOKDEV from "./ProjectsPages/Page_TavernLookDev";
+import PAGE_MICROMOVIE from "./ProjectsPages/Page_MicroMovie";
+import PAGE_LIVECLIENTBRIEF from "./ProjectsPages/Page_LiveClientBrief";
+import PAGE_ANIMATIONDISSERTATION from "./ProjectsPages/Page_AnimationDisseration";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -25,13 +25,13 @@ function App() {
         <Route path="/Contact" element={<ContactPage/>} />
 
 
-        <Route path="/Project1Page" element={<Project1Page/>} />
-        <Route path="/Project1PicsPage" element={<Project1PicsPage/>} />
+        <Route path="/Page_AntiqueShopLookDev" element={<PAGE_ANTIQUESHOPLOOKDEV/>} />
+        <Route path="/Page_AntiqueShopPics" element={<PAGE_ANTIQUESHOPPICS/>} />
 
-        <Route path="/Project2Page" element={<Project2Page/>} />
-        <Route path="/Project3Page" element={<Project3Page/>} />
-        <Route path="/Project4Page" element={<Project4Page/>} />
-        <Route path="/Project5Page" element={<Project5Page/>} />
+        <Route path="/Page_TavernLookDev" element={<PAGE_TAVERNLOOKDEV/>} />
+        <Route path="/Page_MicroMovie" element={<PAGE_MICROMOVIE/>} />
+        <Route path="/Page_LiveClientBrief" element={<PAGE_LIVECLIENTBRIEF/>} />
+        <Route path="/Page_AnimationDisseration" element={<PAGE_ANIMATIONDISSERTATION/>} />
 
       </Routes>
     </>
