@@ -1,5 +1,4 @@
 import "./EducationContentStyles.css";
-import React from 'react';
 import { Link } from "react-router-dom";
 
 const EducatonContent = () => {
@@ -10,7 +9,7 @@ const EducatonContent = () => {
                     Formal Education
                 </h1>
                 <p>
-                    BA Animation (Nottingham Trent University): Currently Working at a First Class
+                    BA Animation (Nottingham Trent University): 2:1 (Upper Second Class)
                     <br></br><br></br>
                     A-Levels (The Highfield School): Graphics: A, Art: B, Biology: C
                     <br></br><br></br>
@@ -23,19 +22,11 @@ const EducatonContent = () => {
                         <button className="btn"> Contact </button>
                     </Link>
                     <div className="divider" />
-                    <a href="/JasmineBlytheCV.pdf">
+                    <a href="/CV_JasmineBlythe.pdf">
                         <button className="btn"> CV </button>
                     </a>
                 </div>
             </div>
-
-            {/*
-            <div className="right">
-                <div>
-                    <img src={ross} alt="ross" className="img" />
-                </div>
-            </div>
-            */}
         </div>
     )
 }

@@ -16,7 +16,7 @@ const PROJECT_MICROMOVIE = () => {
                 </p>
                 <p>
                     Before actually animating this story, a good amount of thought and design was required. This project involved storyboarding
-                    the plot, and then creating an animatic using premier to plan the film out in more detail. While animating isnt my primary focus
+                    the plot, and then creating an animatic using premier to plan the film out in more detail. While animating isn't my primary focus
                     (I'm more interesting in modelling), this project really helped me to further my skills in both areas. One thing that really 
                     stuck with me is desinging enviroments that are easier to animate in - for example, the look development enviroment I created 
                     for this movie (the tavern), was much too dark. I've since learned from my mistakes!
